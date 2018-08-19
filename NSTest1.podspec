@@ -1,9 +1,9 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "NSTest1"
-  s.version      = "0.0.1"
-  s.summary      = "A short description of NSTest1."
+  s.name         = "NSTest"
+  s.version      = "0.0.2"
+  s.summary      = "A short description of NSTest."
   s.homepage     = "https://github.com/liuchongfaye/NSTest1"
   s.license      = "MIT"
   s.author             = { "刘冲" => "liuchongfaye@163.com" }
