@@ -14,7 +14,7 @@
 		443C97BA21283AC200814EAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443C97B821283AC200814EAA /* LaunchScreen.storyboard */; };
 		443C97BD21283AC200814EAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C97BC21283AC200814EAA /* main.m */; };
 		443C97C721283AC200814EAA /* NSTest1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C97C621283AC200814EAA /* NSTest1UITests.m */; };
-		443C97D421283B6F00814EAA /* NSTest1.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C97D321283B6F00814EAA /* NSTest1.m */; };
+		443C97D421283B6F00814EAA /* NSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C97D321283B6F00814EAA /* NSTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,8 @@
 		443C97C221283AC200814EAA /* NSTest1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSTest1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		443C97C621283AC200814EAA /* NSTest1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTest1UITests.m; sourceTree = "<group>"; };
 		443C97C821283AC200814EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		443C97D221283B6F00814EAA /* NSTest1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSTest1.h; sourceTree = "<group>"; };
-		443C97D321283B6F00814EAA /* NSTest1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTest1.m; sourceTree = "<group>"; };
+		443C97D221283B6F00814EAA /* NSTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSTest.h; sourceTree = "<group>"; };
+		443C97D321283B6F00814EAA /* NSTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +110,8 @@
 		443C97D121283B5C00814EAA /* NSTest */ = {
 			isa = PBXGroup;
 			children = (
-				443C97D221283B6F00814EAA /* NSTest1.h */,
-				443C97D321283B6F00814EAA /* NSTest1.m */,
+				443C97D221283B6F00814EAA /* NSTest.h */,
+				443C97D321283B6F00814EAA /* NSTest.m */,
 			);
 			path = NSTest;
 			sourceTree = "<group>";
@@ -218,7 +218,7 @@
 			files = (
 				443C97B221283AC100814EAA /* ViewController.m in Sources */,
 				443C97BD21283AC200814EAA /* main.m in Sources */,
-				443C97D421283B6F00814EAA /* NSTest1.m in Sources */,
+				443C97D421283B6F00814EAA /* NSTest.m in Sources */,
 				443C97AF21283AC100814EAA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
